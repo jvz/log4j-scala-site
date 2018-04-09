@@ -451,6 +451,12 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#_additional_resources">Additional Resources</a></li>
 </ul>
 </li>
+<li><a href="#_release_audit_report">Release Audit Report</a>
+<ul class="sectlevel2">
+<li><a href="#_summary">Summary</a></li>
+<li><a href="#_files">Files</a></li>
+</ul>
+</li>
 </ul>
 </div>
 </div>
@@ -459,7 +465,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="sectionbody">
 <div class="paragraph">
 <p>Log4j Scala API is a <a href="https://www.scala-lang.org/">Scala</a> logging facade based on <a href="https://logging.apache.org/log4j/2.x/">Log4j 2</a>.
-Support for Scala versions 2.10, 2.11, and 2.12 are provided, and experimental support for pre-release versions of 2.13 is also provided.
+Support for Scala versions 2.10, 2.11, and 2.12 is provided, and experimental support for pre-release versions of 2.13 is also provided.
 Log4j Scala API uses Log4j 2.x as its logging backend by default, but this can also be replaced with compatible libraries (e.g., <a href="https://logback.qos.ch/">Logback</a>).
 While this library is not required to use Log4j API in Scala, it does provide idiomatic Scala APIs which are friendlier to use in Scala programs than the Java APIs.</p>
 </div>
@@ -543,7 +549,7 @@ For example:</p>
 <div class="paragraph">
 <p>Most logging implementations use a hierarchical scheme for matching logger names with logging configuration.
 In this scheme the logger name hierarchy is represented by '.' characters in the logger name, in a fashion very similar to the hierarchy used for Java/Scala package names.
-The <code>Logging</code> trait will automatically name the Logger accordingly to the class it is being used in.</p>
+The <code>Logger</code> property added by the <code>Logging</code> trait follows this convention: the trait ensures the <code>Logger</code> is automatically named according to the class it is being used in.</p>
 </div>
 </div>
 </div>
@@ -573,23 +579,23 @@ The checksum and signature are links to the originals on the main distribution s
 <tbody>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Apache Log4j Scala API binary (tar.gz)</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://www.apache.org/dyn/closer.lua/logging/log4j/scala/11.0/apache-log4j-scala-11.0-bin.tar.gz">apache-log4j-scala-11.0-bin.tar.gz</a></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://www.apache.org/dist/logging/log4j/scala/11.0/apache-log4j-scala-11.0-bin.tar.gz.asc">apache-log4j-scala-11.0-bin.tar.gz.asc</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://www.apache.org/dyn/closer.lua/logging/log4j/scala/11.1/apache-log4j-scala-11.1-bin.tar.gz">apache-log4j-scala-11.1-bin.tar.gz</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://www.apache.org/dist/logging/log4j/scala/11.1/apache-log4j-scala-11.1-bin.tar.gz.asc">apache-log4j-scala-11.1-bin.tar.gz.asc</a></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Apache Log4j Scala API binary (zip)</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://www.apache.org/dyn/closer.lua/logging/log4j/scala/11.0/apache-log4j-scala-11.0-bin.zip">apache-log4j-scala-11.0-bin.zip</a></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://www.apache.org/dist/logging/log4j/scala/11.0/apache-log4j-scala-11.0-bin.zip.asc">apache-log4j-scala-11.0-bin.zip.asc</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://www.apache.org/dyn/closer.lua/logging/log4j/scala/11.1/apache-log4j-scala-11.1-bin.zip">apache-log4j-scala-11.1-bin.zip</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://www.apache.org/dist/logging/log4j/scala/11.1/apache-log4j-scala-11.1-bin.zip.asc">apache-log4j-scala-11.1-bin.zip.asc</a></p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Apache Log4j Scala API source (tar.gz)</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://www.apache.org/dyn/closer.lua/logging/log4j/scala/11.0/apache-log4j-scala-11.0-src.tar.gz">apache-log4j-scala-11.0-src.tar.gz</a></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://www.apache.org/dist/logging/log4j/scala/11.0/apache-log4j-scala-11.0-src.tar.gz.asc">apache-log4j-scala-11.0-src.tar.gz.asc</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://www.apache.org/dyn/closer.lua/logging/log4j/scala/11.1/apache-log4j-scala-11.1-src.tar.gz">apache-log4j-scala-11.1-src.tar.gz</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://www.apache.org/dist/logging/log4j/scala/11.1/apache-log4j-scala-11.1-src.tar.gz.asc">apache-log4j-scala-11.1-src.tar.gz.asc</a></p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Apache Log4j Scala API binary (zip)</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://www.apache.org/dyn/closer.lua/logging/log4j/scala/11.0/apache-log4j-scala-11.0-src.zip">apache-log4j-scala-11.0-src.zip</a></p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://www.apache.org/dist/logging/log4j/scala/11.0/apache-log4j-scala-11.0-src.zip.asc">apache-log4j-scala-11.0-src.zip.asc</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Apache Log4j Scala API source (zip)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://www.apache.org/dyn/closer.lua/logging/log4j/scala/11.1/apache-log4j-scala-11.1-src.zip">apache-log4j-scala-11.1-src.zip</a></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><a href="https://www.apache.org/dist/logging/log4j/scala/11.1/apache-log4j-scala-11.1-src.zip.asc">apache-log4j-scala-11.1-src.zip.asc</a></p></td>
 </tr>
 </tbody>
 </table>
@@ -605,11 +611,11 @@ Then verify the signatures using:</p>
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="language-bash" data-lang="bash">gpg --import KEYS
-gpg --verify apache-log4j-scala-11.0-bin.tar.gz.asc apache-log4j-scala-11.0-bin.tar.gz
-gpg --verify apache-log4j-scala-11.0-bin.zip.asc apache-log4j-scala-11.0-bin.zip
-gpg --verify apache-log4j-scala-11.0-src.tar.gz.asc apache-log4j-scala-11.0-src.tar.gz
-gpg --verify apache-log4j-scala-11.0-src.zip.asc apache-log4j-scala-11.0-src.zip</code></pre>
+<pre class="highlight"><code class="language-sh" data-lang="sh">gpg --import KEYS
+gpg --verify apache-log4j-scala-11.1-bin.tar.gz.asc apache-log4j-scala-11.1-bin.tar.gz
+gpg --verify apache-log4j-scala-11.1-bin.zip.asc apache-log4j-scala-11.1-bin.zip
+gpg --verify apache-log4j-scala-11.1-src.tar.gz.asc apache-log4j-scala-11.1-src.tar.gz
+gpg --verify apache-log4j-scala-11.1-src.zip.asc apache-log4j-scala-11.1-src.zip</code></pre>
 </div>
 </div>
 <div class="paragraph">
@@ -624,7 +630,7 @@ gpg --verify apache-log4j-scala-11.0-src.zip.asc apache-log4j-scala-11.0-src.zip
 <div class="title">build.sbt</div>
 <div class="content">
 <pre class="highlight"><code class="language-scala" data-lang="scala">libraryDependencies ++= Seq(
-  "org.apache.logging.log4j" %% "log4j-api-scala" % "11.0",
+  "org.apache.logging.log4j" %% "log4j-api-scala" % "11.1",
   "org.apache.logging.log4j" % "log4j-core" % "2.11.0" % Runtime
 )</code></pre>
 </div>
@@ -646,6 +652,30 @@ gpg --verify apache-log4j-scala-11.0-src.zip.asc apache-log4j-scala-11.0-src.zip
 <table>
 <tr>
 <td class="hdlist1">
+LOG4J2-1882
+</td>
+<td class="hdlist2">
+<p>Migrate log4j-api-scala to sbt.</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+LOG4J2-2303
+</td>
+<td class="hdlist2">
+<p>Add release distribution script.</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+LOG4J2-2295
+</td>
+<td class="hdlist2">
+<p>Add OSGi metadata to release jars.</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
 LOG4J2-2294
 </td>
 <td class="hdlist2">
@@ -665,7 +695,7 @@ LOG4J2-2298
 LOG4J2-2293
 </td>
 <td class="hdlist2">
-<p>Add required license files to SBT output artifacts.</p>
+<p>Add required license files to sbt output artifacts.</p>
 </td>
 </tr>
 <tr>
@@ -681,7 +711,7 @@ LOG4J2-2296
 LOG4J2-2291
 </td>
 <td class="hdlist2">
-<p>Add Jenkins pipeline for SBT build.</p>
+<p>Add Jenkins pipeline for sbt build.</p>
 </td>
 </tr>
 </table>
@@ -701,6 +731,14 @@ LOG4J2-2291
 </div>
 <div class="hdlist">
 <table>
+<tr>
+<td class="hdlist1">
+LOG4J2-2309
+</td>
+<td class="hdlist2">
+<p>Update Log4j Scala API for 2.13 from 2.13.0-M2 to 2.13.0-M3.</p>
+</td>
+</tr>
 <tr>
 <td class="hdlist1">
 LOG4J2-2290
@@ -904,10 +942,98 @@ In this case, it is appropriate to start the first line of a commit with '(doc)'
 </div>
 </div>
 </div>
+<div class="sect1">
+<h2 id="_release_audit_report">Release Audit Report</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Generated at: 2018-04-09T13:49:52-05:00</p>
+</div>
+<div class="sect2">
+<h3 id="_summary">Summary</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>Notes: 0</p>
+</li>
+<li>
+<p>Binaries: 0</p>
+</li>
+<li>
+<p>Archives: 0</p>
+</li>
+<li>
+<p>Standards: 4</p>
+</li>
+<li>
+<p>Apache Licensed: 4</p>
+</li>
+<li>
+<p>Generated Documents: 0</p>
+<div class="ulist">
+<ul>
+<li>
+<p><em>JavaDocs are generated, thus a license header is optional. Generated files do not require license headers.</em></p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Unknown Licenses: 0</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_files">Files</h3>
+<div class="paragraph">
+<p>Files with Apache License headers will be marked <code>AL</code>.
+Binary files (which do not require any license headers) will be marked <code>B</code>.
+Compressed archives will be marked <code>A</code>.
+Notices, licenses etc. will be marked <code>N</code>.</p>
+</div>
+<table class="tableblock frame-all grid-all spread">
+<colgroup>
+<col style="width: 33.3333%;">
+<col style="width: 33.3333%;">
+<col style="width: 33.3334%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">OK?</th>
+<th class="tableblock halign-left valign-top">Type</th>
+<th class="tableblock halign-left valign-top">File</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">✅</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">AL</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">/Users/matt/code/logging/scala/src/main/scala/org/apache/logging/log4j/scala/Logging.scala</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">✅</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">AL</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">/Users/matt/code/logging/scala/src/main/scala/org/apache/logging/log4j/scala/Logger.scala</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">✅</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">AL</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">/Users/matt/code/logging/scala/src/main/scala/org/apache/logging/log4j/scala/LoggingContext.scala</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">✅</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">AL</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">/Users/matt/code/logging/scala/src/main/scala-2.11+/org/apache/logging/log4j/scala/LoggerMacro.scala</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2018-03-31 20:30:49 -05:00
+Last updated 2018-04-05 16:52:37 -05:00
 </div>
 </div>
 </body>
